@@ -15,7 +15,7 @@ const employees = [
     name: "Paraskevi Thanou",
     title: " Head of Business Analytics & Marketing",
     photo: "path-to-carol-photo.jpg",
-    bio: "Paraskevi aka Vivian is the creative mind behind our strategies to keep us ahead of the curve!",
+    bio: "Paraskevi aka Vivian is the creative mind behind our strategies to keep us ahead!",
   },
   {
     id: 3,
