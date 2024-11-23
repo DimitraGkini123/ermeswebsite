@@ -36,8 +36,8 @@ const Navbar = () => {
         <a href="#" onClick={handleScrollToStores} className={menu === 'stores' ? 'active' : ''}>stores</a>
         <Link to='/who-we-are' onClick={() => setMenu('who-we-are')} className={menu === 'who-we-are' ? 'active' : ''}>who we are</Link>
         <Link to="/products" onClick={() => setMenu('products')} className={menu === 'products' ? 'active' : ''}>products</Link>
-        <a href='#footer' onClick={() => setMenu('contact us')} className={menu === 'contact us' ? 'active' : ''}>contact us</a>
         <Link to="/join-us">join us</Link>
+        <a href='#footer' onClick={() => setMenu('contact us')} className={menu === 'contact us' ? 'active' : ''}>contact us</a>
       </ul>
     </div>
   );
