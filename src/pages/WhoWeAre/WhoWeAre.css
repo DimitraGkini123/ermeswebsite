@@ -27,7 +27,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  width: 200px; /* Increase width for better spacing */
+  width: 200px; /* Increased width */
 }
 
 .employee-photo {
@@ -52,19 +52,21 @@
   top: 0;
   left: 100%; /* Position the hover box to the right of the photo */
   width: 250px; /* Width of the hover box */
-  height: 150px; /* Same height as the photo */
+  height: auto; /* Auto height based on the content */
+  max-height: 150px; /* Max height of the hover box */
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   opacity: 0;
   transition: opacity 0.3s ease;
-  border-radius: 5px; /* Slight border radius for a cleaner look */
+  border-radius: 5px; /* Rounded corners */
   padding: 10px;
   text-align: left;
   font-size: 1rem;
   line-height: 1.4;
+  z-index: 1; /* Ensure hover is on top */
 }
 
 .employee-photo:hover .employee-hover {
